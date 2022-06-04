@@ -36,7 +36,6 @@ function apiRequest(num){
 
 
 
-
 fetch(`https://rickandmortyapi.com/api/character/8`)
 .then(res=> res.json()) 
 .then(data => {
@@ -60,7 +59,5 @@ fetch(`https://rickandmortyapi.com/api/character/8`)
 .catch(err=>{
 
 })
-
-
 
 

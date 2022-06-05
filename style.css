@@ -121,3 +121,10 @@ body{
     padding-left: 6px;
   }
 }
+
+#burp{
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}

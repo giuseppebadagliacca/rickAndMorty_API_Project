@@ -11,20 +11,39 @@
 <body class="center">
   <!-- Character Display -->
   <div id="display">
+    <div id="burp">
+      <h1 class="text-center">Wubba Lubba Dub Dub!</h1>
+      <h2 class="text-center">Select a Rick or a *burp* Morty</h2>
+    </div>
+        <div class="container d-flex align-items-center justify-content-center mt-3">
+          <a href="#"class="btn btn-success" onClick = "getRandomChar()" >Find a *burp* Random Character</a>
+      </div>
   </div>
 
 
   <!-- Dropdown menu -->
-  <section class="containerM mt-4">
-    <div class="dropdown">
-      <select name="one" class="dropdown-select" onChange="apiRequest(this.options[this.selectedIndex].value)">
-        <option value="">Basic Ricks!</option>
-        <option value="497">Hologram Rick</option>
-        <option value="165">Investigator Rick</option>
-        <option value="322">Simple Rick</option>
-      </select>
-    </div>
-  </section>
+  <div class="container d-flex">
+    <section class="containerM mt-4">
+      <div class="dropdown">
+        <select name="one" class="dropdown-select" onChange="apiRequest(this.options[this.selectedIndex].value)">
+          <option value="">Basic Ricks!</option>
+          <option value="497">Hologram Rick</option>
+          <option value="165">Investigator Rick</option>
+          <option value="322">Simple Rick</option>
+        </select>
+      </div>
+    </section>
+    <section class="containerM mt-4">
+      <div class="dropdown">
+        <select name="one" class="dropdown-select" onChange="apiRequest(this.options[this.selectedIndex].value)">
+          <option value="">Basic Mortys!</option>
+          <option value="360">Toxic Morty</option>
+          <option value="366">Trunk Morty</option>
+          <option value="392">Bearded Morty</option>
+        </select>
+      </div>
+    </section>
+  </div>
   <script src="/app.js"></script>
 </body>
 </html>

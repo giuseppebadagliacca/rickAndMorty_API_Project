@@ -114,8 +114,6 @@ body{
   z-index: 3;
 }
 
-/* Dirty fix for Firefox adding padding where it shouldn't. */
-
 @-moz-document url-prefix() {
   .dropdown-select {
     padding-left: 6px;
